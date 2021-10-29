@@ -1,0 +1,12 @@
+Kullanicidan alinan sayilari dolaşmak için yada diziye koymak için:
+[print "Sayi Giriniz: "
+sayi = gets.chomp
+dizi = []
+for i in 0..(sayi.length-1) do
+    dizi = dizi.push(sayi[i])
+end
+print dizi]
+
+hours_in_year = 365*24
+minutes_in_decade = 10*365*24*60
+age_in_seconds = age*365*24*60*60
